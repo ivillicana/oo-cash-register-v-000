@@ -11,4 +11,12 @@ class CashRegister
     @items << title
     @total += price * quantity
   end
+
+  def apply_discount
+    if @discount <= 0.0
+      "There is no discount to apply."
+    else
+
+    end
+  end
 end
